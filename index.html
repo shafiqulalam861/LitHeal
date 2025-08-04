@@ -1,67 +1,95 @@
 
+<!-- Updated LitHeal Section with Founder Bio and Colors -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LitHeal – Stories That Heal</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LitHeal - Stories That Heal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(120deg, #f0f4ff, #e0ffe9);
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4b70dd;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .tagline {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 960px;
+            margin: auto;
+        }
+        .founder-section {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            margin-top: 2rem;
+        }
+        .founder-section img {
+            border-radius: 12px;
+            width: 200px;
+            object-fit: cover;
+            border: 3px solid #4b70dd;
+        }
+        .founder-bio {
+            max-width: 700px;
+        }
+        .founder-bio h2 {
+            margin: 0;
+            color: #333;
+        }
+        .founder-bio p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            margin-top: 4rem;
+            background-color: #4b70dd;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <header class="hero">
-        <div class="container">
-            <h1>LitHeal</h1>
-            <p class="tagline">Stories That Heal, Voices That Matter</p>
-            <a href="#traction" class="btn">See Our Traction</a>
-        </div>
+    <header>
+        <h1>LitHeal</h1>
+        <div class="tagline">Stories That Heal, Voices That Matter</div>
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About LitHeal</h2>
-            <p>LitHeal is a cross-border digital publishing and mental-health storytelling platform that empowers underrepresented voices through literature and lived experiences.</p>
-        </div>
-    </section>
-
-    <section id="vision" class="section">
-        <div class="container">
-            <h2>Our Vision</h2>
-            <p>To build a global platform where stories are not just told, but also heard — healing communities across cultures, languages, and borders.</p>
-        </div>
-    </section>
-
-    <section id="traction" class="section">
-        <div class="container">
-            <h2>Our Traction</h2>
-            <ul class="traction-list">
-                <li>✅ Demo website launched: <a href="https://litheal.vercel.app" target="_blank">litheal.vercel.app</a></li>
-                <li>✅ Pitch deck, logo, and UI mockups completed</li>
-                <li>✅ Several Bangladeshi writers and readers showed interest</li>
-                <li>✅ Selected in Startup World Cup Bangladesh 2025 – Idea Stage</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="team" class="section">
-        <div class="container">
-            <h2>Our Team</h2>
-            <p><strong>Md. Shafiqul Alam</strong> – Founder & Writer</p>
-            <p><strong>Collaborators (in discussion):</strong> Mental health professionals, diaspora writers, and tech volunteers.</p>
-        </div>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Email: shafiqulalam861@gmail.com</p>
-            <p>Facebook: <a href="https://facebook.com" target="_blank">LitHeal Community</a></p>
-        </div>
-    </section>
+    <div class="container">
+        <section class="founder-section">
+            <img src="Shofiqul Alam Sir_01816425472 copy 222.jpg" alt="Founder Photo">
+            <div class="founder-bio">
+                <h2>Md. Shafiqul Alam — Founder, LitHeal</h2>
+                <p>
+                    I am a writer with dual M.A. degrees in Bengali and Philosophy. In Bangladesh, I have published several collections of short stories, essays, and poetry. I have also published 11 research papers in recognized journals. Recently, I started publishing my literary works on Amazon KDP. Alongside my writing career, I work as an administrator at an educational institution. My experience in literature, research, and education enables me to contribute effectively to our mission of empowering writers and promoting meaningful storytelling.
+                </p>
+            </div>
+        </section>
+    </div>
 
     <footer>
-        <div class="container">
-            <p>© 2025 LitHeal. All rights reserved. | Created by Md. Shafiqul Alam</p>
-        </div>
+        &copy; 2025 LitHeal. All rights reserved.
     </footer>
 </body>
 </html>
